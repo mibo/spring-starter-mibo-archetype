@@ -16,6 +16,9 @@
     <requiredProperty key="package">
       <defaultValue>com.github.mibo.sample</defaultValue>
     </requiredProperty>
+    <requiredProperty key="spring-version">
+      <defaultValue>${spring.version}</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
